@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "cracker",
+    
+    "pattern":
+    [
+        "CCC",
+        "CIC",
+        "CCC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "potioncrackers:base_cracker"
+        },
+        "I":
+        {
+            "item": "minecraft:rabbit_foot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "potioncrackers:jump_cracker",
+        "count": 8
+    }
+}

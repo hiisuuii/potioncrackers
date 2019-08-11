@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "cracker",
+    
+    "pattern":
+    [
+        "CCC",
+        "CIC",
+        "CCC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "potioncrackers:base_cracker"
+        },
+        "I":
+        {
+            "item": "minecraft:fish",
+			"data": 3
+        }
+    },
+    
+    "result":
+    {
+        "item": "potioncrackers:breath_cracker",
+        "count": 8
+    }
+}

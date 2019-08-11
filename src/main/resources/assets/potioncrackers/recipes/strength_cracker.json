@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "cracker",
+    
+    "pattern":
+    [
+        "CCC",
+        "CIC",
+        "CCC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "potioncrackers:base_cracker"
+        },
+        "I":
+        {
+            "item": "minecraft:blaze_powder"
+        }
+    },
+    
+    "result":
+    {
+        "item": "potioncrackers:strength_cracker",
+        "count": 8
+    }
+}

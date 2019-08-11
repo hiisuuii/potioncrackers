@@ -1,0 +1,16 @@
+[
+{
+  "modid": "potioncrackers",
+  "name": "Potion Crackers",
+  "description": "Stackable potions, in a delicious crackery form.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["hiisuuii"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

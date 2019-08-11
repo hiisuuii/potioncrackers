@@ -1,0 +1,16 @@
+//items
+item.healing_cracker.name=§bCracker of Healing
+item.absorb_cracker.name=§bCracker of Absorption
+item.breath_cracker.name=§bCracker of Water Breathing
+item.fireresistance_cracker.name=§bCracker of Fire Resistance
+item.haste_cracker.name=§bCracker of Haste
+item.invis_cracker.name=§bCracker of Invisibility
+item.jump_cracker.name=§bCracker of Leaping
+item.nightvision_cracker.name=§bCracker of Night Vision
+item.regen_cracker.name=§bCracker of Regeneration
+item.resistance_cracker.name=§bCracker of Resistance
+item.speed_cracker.name=§bCracker of Swiftness
+item.strength_cracker.name=§bCracker of Strength
+item.base_cracker.name=Basic Cracker
+
+itemGroup.crackerstab=Potion Crackers
