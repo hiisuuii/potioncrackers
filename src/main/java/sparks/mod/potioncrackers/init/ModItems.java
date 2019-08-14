@@ -6,9 +6,9 @@ import java.util.List;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
 import net.minecraft.potion.PotionEffect;
-import sparks.mod.potioncrackers.items.ItemBase;
 import sparks.mod.potioncrackers.items.food.FoodBase;
 import sparks.mod.potioncrackers.items.food.FoodEffectBase;
+import sparks.mod.potioncrackers.items.food.FoodMultiEffect;
 
 public class ModItems 
 {
@@ -30,4 +30,6 @@ public class ModItems
 	public static final Item JUMP_CRACKER = new FoodEffectBase("jump_cracker", 4, 9.6F, false, new PotionEffect(MobEffects.JUMP_BOOST, 2400, 0, false, true));
 	public static final Item ABSORB_CRACKER = new FoodEffectBase("absorb_cracker", 4, 9.6F, false, new PotionEffect(MobEffects.ABSORPTION, 2400, 0, false, true));
 	public static final Item BASE_CRACKER = new FoodBase("base_cracker", 2, 2.1F, false);
+	public static final Item CHEESE = new FoodBase("cheese", 7, 5.0F, false);
+	public static final Item ENCHANTED_CHEESE = new FoodMultiEffect("enchanted_cheese", 10, 10.0F, false);
 }

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "GGG",
+		"GCG",
+		"GGG"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "potioncrackers:cheese"
+        },
+		"G":
+		{
+			"item": "minecraft:gold_ingot"
+		}
+    },
+    
+    "result":
+    {
+        "item": "potioncrackers:enchanted_cheese",
+        "count": 1
+    }
+}

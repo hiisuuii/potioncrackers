@@ -12,5 +12,7 @@ item.resistance_cracker.name=§bCracker of Resistance
 item.speed_cracker.name=§bCracker of Swiftness
 item.strength_cracker.name=§bCracker of Strength
 item.base_cracker.name=Basic Cracker
+item.cheese.name=Cheese
+item.enchanted_cheese.name=§bEnchanted Cheese
 
 itemGroup.crackerstab=Potion Crackers

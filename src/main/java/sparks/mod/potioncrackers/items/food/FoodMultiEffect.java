@@ -1,33 +1,20 @@
 package sparks.mod.potioncrackers.items.food;
 
-import java.util.List;
-
-import javax.annotation.Nullable;
-
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
-import net.minecraft.potion.PotionUtils;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import sparks.mod.potioncrackers.init.ModItems;
 
-public class FoodEffectBase extends FoodBase 
+public class FoodMultiEffect extends FoodBase
 {
 
-	PotionEffect effect;
-	
-	
-	public FoodEffectBase(String name, int amount, float saturation, boolean isWolfFood, PotionEffect effect) 
-	{
-		
+	public FoodMultiEffect(String name, int amount, float saturation, boolean isWolfFood) {
 		super(name, amount, saturation, isWolfFood);
 		setAlwaysEdible();
-		this.effect = effect;
-		
 	}
 	
 	@Override
@@ -35,8 +22,12 @@ public class FoodEffectBase extends FoodBase
 	{
 		if (!worldIn.isRemote)
         {
-            player.addPotionEffect(new PotionEffect(effect.getPotion(), effect.getDuration(), effect.getAmplifier(), 
-            		effect.getIsAmbient(), effect.doesShowParticles()));
+            if(this == ModItems.ENCHANTED_CHEESE)
+            {
+            	player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 1200, 1, false, true));
+            	player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 1200, 1, false, true));
+            	player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 80, 1, false, true));
+            }
         }
 	}
 	

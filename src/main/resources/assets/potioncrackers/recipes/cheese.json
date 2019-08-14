@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM"
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "minecraft:milk_bucket"
+        }
+    },
+    
+    "result":
+    {
+        "item": "potioncrackers:cheese",
+        "count": 2
+    }
+}
